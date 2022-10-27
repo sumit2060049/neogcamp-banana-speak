@@ -5,12 +5,17 @@
 
 var btnTranslate = document.querySelector("#btn-translate");
 var txtInput = document.querySelector("#txt-input");
-console.log(txtInput);
+var outputdiv=document.querySelector("#output");
+
+//outputdiv.innerText="tanay pratap";
+
+//console.log(outputdiv);
 
 //console.log(btnTranslate);
 function clickHandler(){
-    console.log("clicked");
-    console.log("input",txtInput.value);
+    //console.log("clicked");
+    //console.log("input",txtInput.value);
+    outputdiv.innerText="ajsjsjsjsjjs "+txtInput.value;
 }
  btnTranslate.addEventListener("click",/*function clickEventHandler(){
      console.log("clicked")
